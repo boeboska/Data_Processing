@@ -1,0 +1,27 @@
+/*set text size*/
+body {
+	font: 10px sans-serif;
+}
+
+/* set axis layout*/
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+/*set tooptip layout*/
+.tooltip {
+	position: absolute;
+	width: 80px;
+	height: 0px;
+	pointer-events: none;
+}
+
+/* set barchart title position and color*/
+h1 {
+	/*display title in middle*/
+	
+	color: green;
+}
