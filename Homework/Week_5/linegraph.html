@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<div> Name: Bob Borsboom </div>
+<div> Studentnumber: 10802975 </div>
+<a href="http://projects.knmi.nl/klimatologie/daggegevens/selectie.cgi" target="_blank">Data: KNMI</a>
+<div></div>
+<h2> Temperture 2014 Eindhoven or Vlieland </h2>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="linegraph.css">
+	<script src="//d3js.org/d3.v3.min.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src="linegraph.js"></script>
+
+</head>
+
+<body>
+	<div id="option">			
+	<select type="select" onchange="change_data(value);">
+		<option value ="eindhoven" name="eindhoven" selected="true"> Eindhoven</option>
+		<option value ="vlieland" name="vlieland"> Vlieland </option>
+	</select>
+	</div>
+</body>
+
+</html>

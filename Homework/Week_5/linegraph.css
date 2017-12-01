@@ -1,0 +1,32 @@
+/*
+Name: Bob Borsboom
+Student number: 10802975
+*/
+
+/* set text size*/
+body {
+	font: 12 px Arial;
+}
+
+/* set path layout*/
+path {
+	stroke:steelblue;
+	stroke-width: 2;
+	fill: none;
+}
+
+/* set axis layout*/
+.axis path,
+.axis.line {
+	fill: none;
+	stroke: grey;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+/* set linegraph title position and color*/
+h2 {
+	/*display title in middle*/
+	color: green;
+	text-align: center;
+}
