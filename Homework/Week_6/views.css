@@ -1,0 +1,41 @@
+/*set pop up box*/
+.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+
+	/*set pop up box size*/
+	padding: 12px;
+
+	/*set pop up box color*/
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	border-radius: 2px;
+}
+
+
+/* DEZE MOET IK NOG AANPASSEN. ER IS GEEN KLASSE BAR NAMELIJK. MET DEZE KLASSE MOET JE ALLE PROVINCIES SELECTEREN*/
+/*set bar mouseover color*/
+#provincie:hover {
+	fill: black ;
+}
+
+#chart {
+	position: fixed; 
+	top: 50%;
+	left: 50%;
+	width: 750; */van je svg 
+}
+
+h1 {
+	text-align: center;
+}
+
+/*set layour for pie chart*/
+.arc text {
+	font : 10px sans-serif;
+	text-anchor: middle;
+}
+
+.atc path {
+	stroke: #fff;
+}
