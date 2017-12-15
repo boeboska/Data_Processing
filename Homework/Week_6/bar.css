@@ -1,0 +1,91 @@
+/*// Name: Bob Borsboom
+// Student number: 10802975
+// Data Processing WK6*/
+
+#title1 {
+	/*display title in middle*/
+	position: relative; 
+	top: 50px;
+	left: 400px;
+	color: pink;
+}
+
+#title2 {
+
+	position: relative; 
+	/*top: 50px;*/
+	right: 500px;
+	color: green;
+}
+
+.d3-tip2 {
+	line-height: 1;
+	font-weight: bold;
+
+	/*set pop up box size*/
+	padding: 12px;
+
+	/*set pop up box color*/
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	border-radius: 2px;
+}
+
+/*set text size*/
+body {
+	font: 15px sans-serif;
+}
+
+
+/*set axis tite text size*/
+.axis text{
+	font: 10px sans-serif;
+}
+
+/* set y axis layout*/
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.x.axis path {
+	display: none;
+}
+
+
+/*set bar color*/
+.bar {
+fill: green;
+}
+
+
+/*set bar mouseover color*/
+.bar:hover {
+	fill: black ;
+}
+
+#container {
+	width: 2000px; 
+	height: 800px;
+	margin: auto; 
+}
+
+#mapdiv {
+	width: 1000px;
+	height: 600px;
+	float: right;
+}
+
+#barchart {
+	width: 1000px;
+	height: 600px;
+	float: left;
+}
+
+#option {
+	position: relative; 
+	top: 50px;
+	left: 40px;
+}

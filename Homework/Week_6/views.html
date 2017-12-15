@@ -1,23 +1,92 @@
+<!-- Name: Bob Borsboom
+Student number: 10802975
+Data Processing WK6 -->
+
+
 <!DOCTYPE html>
 
+<div> Name: Bob Borsboom </div>
+<div> Studentnumber: 10802975 </div>
+<a href="http://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=83523NED&D1=1,3-4,11&D2=0,5-16&D3=44,49,54,59,64,69&HDR=T,G2&STB=G1&VW=T
+" target="_blank">Data: Working population</a>
 
 <head>
 	<link rel="stylesheet" type="text/css" href="views.css">
+	<link rel="stylesheet" type="text/css" href="bar.css">
+
 	<script src="//d3js.org/d3.v3.min.js"></script>
-	<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-	<script src="https://d3js.org/queue.v1.min.js"></script>
-	<script src="https://d3js.org/topojson.v1.min.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
 
 
+	<script src="bar.js"></script>
 	<script src="views.js"></script>
-
-
-	<h1> Working population per province <h1>
+	
+	<title>Views</title>
 
 </head>
 
 
 <body>
 
+	<div id="container">
+	<select width="500" id="option" onchange="change_data(value); change_data2(value)">
+
+		<option value ="year_2016" name="year_2016" selected="true"> 2016 </option>
+
+		<option value ="year_2015" name="year_2015"> 2015 </option>
+
+	</select>
+
+
+	<div id="title1">
+	<h1> Working population per province </h1>
+	</div>
+
+
+	<div id="title2">
+	<h1> Amount of employees per province </h1>
+	</div>
+
+
+		<div id="mapdiv">
+			<svg = class="map"></svg>
+
+		</div>
+
+		<div id="barchartdiv">
+			<svg class="barchart"> </svg>
+
+		</div>
+
+	</div>
 
 </body>
+
+
+<div>
+	<h3>
+		Storytelling:
+	</h3>
+	<div>
+		On the right you see a map of the Netherlands with the working population per province. If you look at the colors, you see that the most of the people are working in "De Randstand". 
+	</div>
+	<div>
+		On the left you see a barchart of the amount of employees per province. this amount is not the same at the working population because this number is exclusive the people who have a own company.
+	</div>
+
+	<h3>
+		How to work with it:
+	</h3>
+	On the map: hover over the provinces to see some information about that specific province. Click on the province to see the connection with the barchart.
+
+	<div>
+		On the barchart: hover over the bars to see some information about that specific province.
+	</div>
+	<div>
+		Change the years to see a change in the data. You won't see a lot of change visualy because the data won't change that much unfortunately. But when you hover with your mouse over the bars or map you will see a small change in the data
+</div>
+
+	
+</html>

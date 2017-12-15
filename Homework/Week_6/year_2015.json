@@ -1,0 +1,62 @@
+[
+    {
+        "capital_city": "Groningen", 
+        "percentage_of_total": " 3.0 ", 
+        "amount": "279000"
+    }, 
+    {
+        "capital_city": "Friesland", 
+        "percentage_of_total": " 4.0 ", 
+        "amount": "308000"
+    }, 
+    {
+        "capital_city": "Drenthe", 
+        "percentage_of_total": " 3.0 ", 
+        "amount": "231000"
+    }, 
+    {
+        "capital_city": "Overijssel", 
+        "percentage_of_total": " 7.0 ", 
+        "amount": "560000"
+    }, 
+    {
+        "capital_city": "Flevoland", 
+        "percentage_of_total": " 2.0 ", 
+        "amount": "199000"
+    }, 
+    {
+        "capital_city": "Gelderland", 
+        "percentage_of_total": " 12.0 ", 
+        "amount": "997000"
+    }, 
+    {
+        "capital_city": "Utrecht", 
+        "percentage_of_total": " 8.0 ", 
+        "amount": "643000"
+    }, 
+    {
+        "capital_city": "Noord-Holland", 
+        "percentage_of_total": " 17.0 ", 
+        "amount": "1388000"
+    }, 
+    {
+        "capital_city": "Zuid-Holland", 
+        "percentage_of_total": " 21.0 ", 
+        "amount": "1726000"
+    }, 
+    {
+        "capital_city": "Zeeland", 
+        "percentage_of_total": " 2.0 ", 
+        "amount": "184000"
+    }, 
+    {
+        "capital_city": "Noord-Brabant", 
+        "percentage_of_total": " 15.0 ", 
+        "amount": "1245000"
+    }, 
+    {
+        "capital_city": "Limburg", 
+        "percentage_of_total": " 6.0 ", 
+        "amount": "534000"
+    }
+]

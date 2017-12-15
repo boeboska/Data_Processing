@@ -1,0 +1,62 @@
+[
+    {
+        "zelfstandige": "44", 
+        "capital_city": "Groningen", 
+        "werknemer": "235"
+    }, 
+    {
+        "zelfstandige": "58", 
+        "capital_city": "Friesland", 
+        "werknemer": "250"
+    }, 
+    {
+        "zelfstandige": "40", 
+        "capital_city": "Drenthe", 
+        "werknemer": "191"
+    }, 
+    {
+        "zelfstandige": "86", 
+        "capital_city": "Overijssel", 
+        "werknemer": "474"
+    }, 
+    {
+        "zelfstandige": "29", 
+        "capital_city": "Flevoland", 
+        "werknemer": "169"
+    }, 
+    {
+        "zelfstandige": "166", 
+        "capital_city": "Gelderland", 
+        "werknemer": "831"
+    }, 
+    {
+        "zelfstandige": "111", 
+        "capital_city": "Utrecht", 
+        "werknemer": "532"
+    }, 
+    {
+        "zelfstandige": "265", 
+        "capital_city": "Noord-Holland", 
+        "werknemer": "1123"
+    }, 
+    {
+        "zelfstandige": "275", 
+        "capital_city": "Zuid-Holland", 
+        "werknemer": "1451"
+    }, 
+    {
+        "zelfstandige": "31", 
+        "capital_city": "Zeeland", 
+        "werknemer": "153"
+    }, 
+    {
+        "zelfstandige": "196", 
+        "capital_city": "Noord-Brabant", 
+        "werknemer": "1049"
+    }, 
+    {
+        "zelfstandige": "83", 
+        "capital_city": "Limburg", 
+        "werknemer": "451"
+    }
+]
